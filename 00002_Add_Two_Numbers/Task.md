@@ -31,9 +31,6 @@ Output: [8,9,9,9,0,0,0,1]
 * It is guaranteed that the list represents a number that does not have leading zeros.
 
 
-## Follow-up
-Can you come up with an algorithm that is less than O(n2) time complexity?
-
 
 ## Commuity
 * Accepted 3.6M
