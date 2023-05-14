@@ -1,6 +1,6 @@
 class Solution:
   def __init__(self):
-    self.roman = ''
+    pass
 
   def romanToInt(self, s: str) -> int:
     dic = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
@@ -19,6 +19,6 @@ class Solution:
     
 if __name__ == "__main__":
   test = Solution()
-  test.roman = 'MCMXCIV'
-
-  print(test.romanToInt(test.roman))
+  assert(test.romanToInt(s="III") == 3)
+  assert(test.romanToInt(s="LVIII") == 58)
+  assert(test.romanToInt(s="MCMXCIV") == 1994)
