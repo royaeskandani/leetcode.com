@@ -3,8 +3,7 @@ import math
 class Solution:
   def __init__(self) -> None:
     pass
-    
-class Solution:
+
   def isPalindrome(self, x: int) -> bool:
     if x in range(0,10):
       return True
